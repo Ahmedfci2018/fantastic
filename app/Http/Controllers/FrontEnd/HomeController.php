@@ -155,8 +155,6 @@ class HomeController extends Controller
     } // end of page
 
 
-    // ==== makram ====
-
     public function all_project($id)
     {
         $title=Category::findOrFail($id)->name;
